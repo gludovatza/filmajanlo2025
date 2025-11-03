@@ -13,9 +13,12 @@ introduction text
 <h1>Movie List</h1>
 
 Movies:
-<ul>
+<ul class="list-group">
     @foreach ($movies as $id => $movie)
-        <li><a href="{{ route('movies.show', $id) }}">{{ $movie["title"] }} ({{ $movie["year"] }})</a></li>
+        <li class="list-group-item"><a class="list-group-item" href="{{ route('movies.show', $id) }}">{{ $movie["title"] }} ({{ $movie["year"] }})</a></li>
     @endforeach
 </ul>
+
+
+
 @endsection
