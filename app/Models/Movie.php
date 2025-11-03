@@ -15,7 +15,7 @@ class Movie extends Model
                 'category' => 'Sci-Fi',
                 'year' => 2010,
                 'description' => 'A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.',
-                'poster' => 'https://m.media-amazon.com/images/I/51s+0GQKqzL._AC_SY445_.jpg'
+                'poster' => 'https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg'
             ],
             2 => [
                 'title' => 'The Matrix',
@@ -31,7 +31,7 @@ class Movie extends Model
                 'category'=> 'Sci-Fi',
                 'year' => 2014,
                 'description'=> 'A team of explorers travel through a wormhole in space in an attempt to ensure humanity\'s survival.',
-                'poster'=> 'https://m.media-amazon.com/images/I/71n58v1jWDL._AC_SY679_.jpg'
+                'poster'=> 'https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg'
             ],
             4 => [
                 'title' => 'The Godfather',
@@ -39,7 +39,7 @@ class Movie extends Model
                 'category'=> 'Crime',
                 'year' => 1972,
                 'description'=> 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.',
-                'poster'=> 'https://m.media-amazon.com/images/I/51rOnIjLqzL._AC_.jpg'
+                'poster'=> 'https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg'
             ],
             5 => [
                 'title' => 'Pulp Fiction',
