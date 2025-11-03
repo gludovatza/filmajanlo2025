@@ -1,6 +1,9 @@
 @extends('layout')
 
 @section('content')
+<h1>Intro</h1>
+introduction text
+
 
 <h1>Movies' categories</h1>
 @foreach ($categories as $category)
