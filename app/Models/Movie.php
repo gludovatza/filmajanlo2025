@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Movie extends Model
 {
     // modellezzük a filmeket egy tömbbel
-    public function getMovies() {
+    public static function getMovies() {
         return [
             1 => [
                 'title' => 'Inception',
